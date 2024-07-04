@@ -163,7 +163,7 @@ input#tituloPelicula {
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
 
     .container {
         margin-left: 2px;
@@ -174,7 +174,6 @@ input#tituloPelicula {
     .pelicula {
         margin-bottom: 2rem;
         box-sizing: border-box;
-        padding: 1rem;
         background-color: #ffffff93;
         box-shadow: 0 4px 8px #9f0606af; 
         min-width: 250px; 
@@ -197,8 +196,6 @@ input#tituloPelicula {
     }
 
     .container {
-        margin-left: 2px;
-        margin-right: 2px;
         margin: 0 auto;
     }
 
@@ -210,7 +207,6 @@ input#tituloPelicula {
     .pelicula {
         margin-bottom: 2rem;
         box-sizing: border-box;
-        padding: 1rem;
         background-color: #ffffff93;
         box-shadow: 0 4px 8px #9f0606af; 
         min-width: 250px; 
