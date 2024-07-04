@@ -162,14 +162,29 @@ input#tituloPelicula {
     justify-content: center;
 }
 
-@media (max-width: 800px) {
+
+@media (min-width: 1200px) {
 
     .container {
         margin-left: 2px;
         margin-right: 2px;
+        margin: 0 auto;
+    }
+
+    .pelicula {
+        margin-bottom: 2rem;
+        box-sizing: border-box;
+        padding: 1rem;
+        background-color: #ffffff93;
+        box-shadow: 0 4px 8px #9f0606af; 
+        min-width: 250px; 
+        max-width: calc(33.333% - 2rem);
+        border-radius: 5px;
     }
     
 }
+
+
 
 @media (max-width: 799px) {
     .contenedor-busqueda {
@@ -190,6 +205,17 @@ input#tituloPelicula {
     #botonBuscar {
         margin: 0 auto;
         width: 30%;
+    }
+
+    .pelicula {
+        margin-bottom: 2rem;
+        box-sizing: border-box;
+        padding: 1rem;
+        background-color: #ffffff93;
+        box-shadow: 0 4px 8px #9f0606af; 
+        min-width: 250px; 
+        max-width: 70vh;
+        border-radius: 5px;
     }
 }
 
