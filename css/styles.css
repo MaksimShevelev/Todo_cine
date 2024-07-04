@@ -146,7 +146,7 @@ img {
     background-color: #ffffff93;
     box-shadow: 0 4px 8px #9f0606af; 
     min-width: 250px; 
-    max-width: calc(33.333% - 2rem);
+    max-width: 50vh;
     border-radius: 5px;
 }
 
